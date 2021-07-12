@@ -1,8 +1,8 @@
-package com.rudrasiva86.products.repository;
+package com.rudra.products.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.rudrasiva86.products.model.Product;
+import com.rudra.products.model.Product;
 
 public interface ProductRepository extends MongoRepository<Product, String> {
 

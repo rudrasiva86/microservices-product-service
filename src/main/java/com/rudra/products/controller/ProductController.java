@@ -1,4 +1,4 @@
-package com.rudrasiva86.products.controller;
+package com.rudra.products.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rudrasiva86.products.model.Product;
-import com.rudrasiva86.products.repository.ProductRepository;
+import com.rudra.products.model.Product;
+import com.rudra.products.repository.ProductRepository;
 
 @RestController
 @RequestMapping("/api/product")
